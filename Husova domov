@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Husův dům - Výchovný ústav</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff9e6;
+      margin: 0;
+      color: #333;
+    }
+    header {
+      background: #004aad; /* modrá */
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #ffcc00; /* žlutá */
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00; /* žlutá */
+    }
+    section {
+      padding: 20px;
+    }
+    section h2 {
+      color: #009933; /* zelená */
+      border-bottom: 3px solid #009933;
+      padding-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Husův dům</h1>
+    <nav>
+      <a href="#onas">O nás</a>
+      <a href="#novinky">Novinky</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </header>
+
+  <section id="onas">
+    <h2>O nás</h2>
+    <p>Výchovný ústav Husův dům pomáhá dětem a mladým lidem najít správnou cestu životem...</p>
+  </section>
+
+  <section id="novinky">
+    <h2>Novinky</h2>
+    <ul>
+      <li>Nový sportovní areál byl otevřen 1. června 2025.</li>
+      <li>Letní tábor pro děti proběhne od 15. července do 25. července.</li>
+    </ul>
+  </section>
+</body>
+</html>
